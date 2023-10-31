@@ -46,7 +46,7 @@ app.use(express.json());
 //   .then(() => console.log('MongoDB connected'))
 //   .catch(err => console.error(err));
 
-// Load routes
+// Load routes here
 const authenticationRoutes = require('./routes/authenticationRoutes');
 const restaurantRoutes = require('./routes/restaurantRoutes');
 const orderRoutes = require('./routes/orderRoutes');
